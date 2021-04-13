@@ -15,16 +15,24 @@ client.on('message', message => {
       message.channel.send("```Help - Discord Free Nitro\n\n>nitro (give you a free nitro)```");
     }
   });
-  client.on('message', message => {
-    if (message.content === '>gen') {
+ 
+client.on('message', message => {
+    if (message.content === '>gen') {  
+      message.channel.send(nitro(1));
         message.channel.send(nitro(1));
-        while (message.channel.send(nitro(1)) {
-            if (message.content === '>stop') {
-                return message.channel.send('stopped');
-            }
-        }
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
+        message.channel.send(nitro(1));
     }
-});
+  });
 
 var http = require ("https")
 
